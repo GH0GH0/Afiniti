@@ -26,8 +26,6 @@ public class VoiceController : MonoBehaviour
         CheckPermission();
     }
 
-    
-
     void CheckPermission()
     {
 #if UNITY_ANDROID
